@@ -1,0 +1,26 @@
+{
+  "name": "photogen-theme",
+  "displayName": "photogen-theme",
+  "description": "VSCode theme using the PhotoGen SaaS Colors",
+  "version": "1.0.0",
+  "publisher": "MarceloAssis123",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarceloAssis123/vscode-themes"
+  },
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "photogen-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/photogen-theme-color-theme.json"
+      }
+    ]
+  }
+}
