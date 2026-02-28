@@ -22,5 +22,16 @@
         "path": "./themes/photogen-theme-color-theme.json"
       }
     ]
-  }
+  },
+  "private": false,
+  "license": "MIT",
+  "icon": "icon.png",
+  "homepage": "https://github.com/MarceloAssis123/vscode-themes",
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "blue",
+    "photogen"
+  ]
 }
