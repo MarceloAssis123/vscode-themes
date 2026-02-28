@@ -1,0 +1,37 @@
+{
+  "name": "papagaioai-theme",
+  "displayName": "Papagaio AI Theme",
+  "description": "VSCode theme using the Papagaio AI SaaS Colors",
+  "version": "1.0.0",
+  "publisher": "MarceloAssis123",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarceloAssis123/vscode-themes"
+  },
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "papagaioai-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/papagaioai-theme-color-theme.json"
+      }
+    ]
+  },
+  "private": false,
+  "license": "MIT",
+  "icon": "icon.png",
+  "homepage": "https://github.com/MarceloAssis123/vscode-themes",
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark theme",
+    "blue",
+    "papagaio ai"
+  ]
+}
