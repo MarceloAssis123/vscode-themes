@@ -43,7 +43,7 @@ code --install-extension MarceloAssis123.interiorai-theme
 ## Activate the theme
 
 1. Press `Ctrl+K Ctrl+T` (macOS: `Cmd+K Cmd+T`).
-2. Select **interiorai-theme** from the list.
+2. Select **Interior AI Theme** from the list.
 
 Or add this line to your `settings.json`:
 
