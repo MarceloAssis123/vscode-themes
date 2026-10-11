@@ -1,15 +1,24 @@
 {
   "name": "interiorai-theme",
   "displayName": "Interior AI Theme",
-  "description": "VSCode theme using the Interior AI SaaS Colors",
-  "version": "1.0.0",
+  "description": "Official Interior AI theme for VS Code: a blue-grey dark theme with Material syntax colors and depth-colored JSON keys.",
+  "version": "1.1.0",
   "publisher": "MarceloAssis123",
+  "author": {
+    "name": "Marcelo Assis",
+    "url": "https://marceloassis.com.br"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarceloAssis123/vscode-themes"
+    "url": "https://github.com/MarceloAssis123/vscode-themes",
+    "directory": "interiorai-theme"
   },
+  "bugs": {
+    "url": "https://github.com/MarceloAssis123/vscode-themes/issues"
+  },
+  "homepage": "https://interiorai.com.br",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
@@ -17,21 +26,30 @@
   "contributes": {
     "themes": [
       {
-        "label": "interiorai-theme",
+        "id": "interiorai-theme",
+        "label": "Interior AI Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/interiorai-theme-color-theme.json"
       }
     ]
   },
+  "galleryBanner": {
+    "color": "#2D56EE",
+    "theme": "dark"
+  },
   "private": false,
   "license": "MIT",
   "icon": "icon.png",
-  "homepage": "https://github.com/MarceloAssis123/vscode-themes",
   "keywords": [
+    "interior ai",
+    "interior ai theme",
+    "interior ai brasil",
     "theme",
     "color-theme",
     "dark theme",
     "blue",
-    "interior ai"
+    "blue grey",
+    "material",
+    "vscode theme"
   ]
 }
