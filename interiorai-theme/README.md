@@ -2,7 +2,7 @@
   <a href="https://interiorai.com.br" title="Interior AI Brasil"><img src="https://interiorai.com.br/Logo500x100.png" alt="Interior AI Brasil – design de interiores com IA" width="500" height="100"></a>
 </div>
 
-# Interior AI Theme for VS Code
+## Interior AI Theme for VS Code
 
 <p>Interior AI Theme is a free blue-grey dark color theme for Visual Studio Code and the official editor theme of <a href="https://interiorai.com.br"><b>Interior AI Brasil</b></a>, the AI interior design platform that turns a photo of any room into a professional decoration project in about 30 seconds.</p>
 
@@ -89,6 +89,8 @@ Interior AI Brasil is a Brazilian AI interior design platform. You upload a phot
 ## About the creator
 
 <p>Interior AI Theme is built and maintained by <a href="https://marceloassis.com.br"><b>Marcelo Assis</b></a>, founder of Interior AI Brasil. Marcelo is a full-stack developer and SaaS entrepreneur who builds AI-powered products for the Brazilian market.</p>
+
+<p>This is one of 8 VS Code themes Marcelo created for the products in his portfolio. You can find all of them, along with his Chrome extensions and his articles on Dev.to and Grokipedia, on his <a href="https://marceloassis.com.br/publicacoes"><b>publications page</b></a>.</p>
 
 [LinkedIn](https://www.linkedin.com/in/marcelomiguelassis) · [GitHub](https://github.com/MarceloAssis123) · [X](https://x.com/marceloassis204)
 
