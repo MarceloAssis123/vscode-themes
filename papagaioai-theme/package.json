@@ -1,15 +1,24 @@
 {
   "name": "papagaioai-theme",
   "displayName": "Papagaio AI Theme",
-  "description": "VSCode theme using the Papagaio AI SaaS Colors",
-  "version": "1.0.0",
+  "description": "Official Papagaio AI theme for VS Code: a blue-grey dark theme with Material syntax colors and depth-colored JSON keys.",
+  "version": "1.1.0",
   "publisher": "MarceloAssis123",
+  "author": {
+    "name": "Marcelo Assis",
+    "url": "https://marceloassis.com.br"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarceloAssis123/vscode-themes"
+    "url": "https://github.com/MarceloAssis123/vscode-themes",
+    "directory": "papagaioai-theme"
   },
+  "bugs": {
+    "url": "https://github.com/MarceloAssis123/vscode-themes/issues"
+  },
+  "homepage": "https://papagaioai.com",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
@@ -17,21 +26,29 @@
   "contributes": {
     "themes": [
       {
-        "label": "papagaioai-theme",
+        "id": "papagaioai-theme",
+        "label": "Papagaio AI Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/papagaioai-theme-color-theme.json"
       }
     ]
   },
+  "galleryBanner": {
+    "color": "#EBF1F6",
+    "theme": "light"
+  },
   "private": false,
   "license": "MIT",
   "icon": "icon.png",
-  "homepage": "https://github.com/MarceloAssis123/vscode-themes",
   "keywords": [
+    "papagaio ai",
+    "papagaio ai theme",
     "theme",
     "color-theme",
     "dark theme",
     "blue",
-    "papagaio ai"
+    "blue grey",
+    "material",
+    "vscode theme"
   ]
 }
