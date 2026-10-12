@@ -1,15 +1,24 @@
 {
   "name": "perguntapix-theme",
   "displayName": "Pergunta Pix Theme",
-  "description": "VSCode theme using the Pergunta Pix SaaS Colors",
-  "version": "1.0.0",
+  "description": "Official Pergunta Pix theme for VS Code: a blue-grey dark theme with Material syntax colors and depth-colored JSON keys.",
+  "version": "1.1.0",
   "publisher": "MarceloAssis123",
+  "author": {
+    "name": "Marcelo Assis",
+    "url": "https://marceloassis.com.br"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarceloAssis123/vscode-themes"
+    "url": "https://github.com/MarceloAssis123/vscode-themes",
+    "directory": "perguntapix-theme"
   },
+  "bugs": {
+    "url": "https://github.com/MarceloAssis123/vscode-themes/issues"
+  },
+  "homepage": "https://perguntapix.com",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
@@ -17,21 +26,29 @@
   "contributes": {
     "themes": [
       {
-        "label": "perguntapix-theme",
+        "id": "perguntapix-theme",
+        "label": "Pergunta Pix Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/perguntapix-theme-color-theme.json"
       }
     ]
   },
+  "galleryBanner": {
+    "color": "#ECEFF8",
+    "theme": "light"
+  },
   "private": false,
   "license": "MIT",
   "icon": "icon.png",
-  "homepage": "https://github.com/MarceloAssis123/vscode-themes",
   "keywords": [
+    "pergunta pix",
+    "pergunta pix theme",
     "theme",
     "color-theme",
     "dark theme",
     "blue",
-    "pergunta pix"
+    "blue grey",
+    "material",
+    "vscode theme"
   ]
 }
