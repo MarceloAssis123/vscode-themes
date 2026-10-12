@@ -1,15 +1,24 @@
 {
   "name": "niverfy-theme",
   "displayName": "Niverfy Theme",
-  "description": "VSCode theme using the Niverfy SaaS Colors",
-  "version": "1.0.0",
+  "description": "Official Niverfy theme for VS Code: a blue-grey dark theme with Material syntax colors and depth-colored JSON keys.",
+  "version": "1.1.0",
   "publisher": "MarceloAssis123",
+  "author": {
+    "name": "Marcelo Assis",
+    "url": "https://marceloassis.com.br"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarceloAssis123/vscode-themes"
+    "url": "https://github.com/MarceloAssis123/vscode-themes",
+    "directory": "niverfy-theme"
   },
+  "bugs": {
+    "url": "https://github.com/MarceloAssis123/vscode-themes/issues"
+  },
+  "homepage": "https://niverfy.com",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
@@ -17,21 +26,29 @@
   "contributes": {
     "themes": [
       {
-        "label": "niverfy-theme",
+        "id": "niverfy-theme",
+        "label": "Niverfy Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/niverfy-theme-color-theme.json"
       }
     ]
   },
+  "galleryBanner": {
+    "color": "#F5FAFF",
+    "theme": "light"
+  },
   "private": false,
   "license": "MIT",
   "icon": "icon.png",
-  "homepage": "https://github.com/MarceloAssis123/vscode-themes",
   "keywords": [
+    "niverfy",
+    "niverfy theme",
     "theme",
     "color-theme",
     "dark theme",
     "blue",
-    "niverfy"
+    "blue grey",
+    "material",
+    "vscode theme"
   ]
 }
