@@ -1,15 +1,24 @@
 {
   "name": "desenhospracolorir-theme",
   "displayName": "Desenhos pra Colorir Theme",
-  "description": "VSCode theme using the Desenhos pra Colorir SaaS Colors",
-  "version": "1.0.0",
+  "description": "Official Desenhos pra Colorir theme for VS Code: blue-grey dark theme, Material syntax colors, depth-colored JSON keys.",
+  "version": "1.1.0",
   "publisher": "MarceloAssis123",
+  "author": {
+    "name": "Marcelo Assis",
+    "url": "https://marceloassis.com.br"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarceloAssis123/vscode-themes"
+    "url": "https://github.com/MarceloAssis123/vscode-themes",
+    "directory": "desenhospracolorir-theme"
   },
+  "bugs": {
+    "url": "https://github.com/MarceloAssis123/vscode-themes/issues"
+  },
+  "homepage": "https://desenhospracolorir.com",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
@@ -17,21 +26,29 @@
   "contributes": {
     "themes": [
       {
-        "label": "desenhospracolorir-theme",
+        "id": "desenhospracolorir-theme",
+        "label": "Desenhos pra Colorir Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/desenhospracolorir-theme-color-theme.json"
       }
     ]
   },
+  "galleryBanner": {
+    "color": "#F6FBFE",
+    "theme": "light"
+  },
   "private": false,
   "license": "MIT",
   "icon": "icon.png",
-  "homepage": "https://github.com/MarceloAssis123/vscode-themes",
   "keywords": [
+    "desenhos pra colorir",
+    "desenhos pra colorir theme",
     "theme",
     "color-theme",
     "dark theme",
     "blue",
-    "desenhos pra colorir"
+    "blue grey",
+    "material",
+    "vscode theme"
   ]
 }
