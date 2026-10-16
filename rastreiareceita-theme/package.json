@@ -1,15 +1,24 @@
 {
   "name": "rastreiareceita-theme",
   "displayName": "Rastreia Receita Theme",
-  "description": "VSCode theme using the Rastreia Receita SaaS Colors",
-  "version": "1.0.0",
+  "description": "Official Rastreia Receita theme for VS Code: blue-grey dark theme, Material syntax colors, depth-colored JSON keys.",
+  "version": "1.1.0",
   "publisher": "MarceloAssis123",
+  "author": {
+    "name": "Marcelo Assis",
+    "url": "https://marceloassis.com.br"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarceloAssis123/vscode-themes"
+    "url": "https://github.com/MarceloAssis123/vscode-themes",
+    "directory": "rastreiareceita-theme"
   },
+  "bugs": {
+    "url": "https://github.com/MarceloAssis123/vscode-themes/issues"
+  },
+  "homepage": "https://rastreiareceita.com",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
@@ -17,21 +26,29 @@
   "contributes": {
     "themes": [
       {
-        "label": "rastreiareceita-theme",
+        "id": "rastreiareceita-theme",
+        "label": "Rastreia Receita Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/rastreiareceita-theme-color-theme.json"
       }
     ]
   },
+  "galleryBanner": {
+    "color": "#ECECFE",
+    "theme": "light"
+  },
   "private": false,
   "license": "MIT",
   "icon": "icon.png",
-  "homepage": "https://github.com/MarceloAssis123/vscode-themes",
   "keywords": [
+    "rastreia receita",
+    "rastreia receita theme",
     "theme",
     "color-theme",
     "dark theme",
     "blue",
-    "rastreia receita"
+    "blue grey",
+    "material",
+    "vscode theme"
   ]
 }
